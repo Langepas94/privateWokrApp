@@ -19,6 +19,24 @@
       }
     },
     {
+      "identity" : "mbprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jdg/MBProgressHUD.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c843e4c86d320a11552898646effa8000042ab16"
+      }
+    },
+    {
+      "identity" : "rncryptor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RNCryptor/RNCryptor.git",
+      "state" : {
+        "revision" : "5e3bbf44f08bf90049537cb8902d8f4fa911a79a",
+        "version" : "5.1.0"
+      }
+    },
+    {
       "identity" : "tinyconstraints",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/roberthein/TinyConstraints.git",

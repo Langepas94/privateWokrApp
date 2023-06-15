@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44A495DF2A3B1072003CB0D5 /* ResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A495DE2A3B1072003CB0D5 /* ResponseDataModel.swift */; };
 		DD3ECFBA2A375C8900A0FA7D /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3ECFB92A375C8900A0FA7D /* BeerModel.swift */; };
 		DD3ECFBC2A375CBC00A0FA7D /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3ECFBB2A375CBC00A0FA7D /* URLManager.swift */; };
 		DD3ECFBE2A375CD500A0FA7D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3ECFBD2A375CD500A0FA7D /* NetworkManager.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44A495DE2A3B1072003CB0D5 /* ResponseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDataModel.swift; sourceTree = "<group>"; };
 		5121A6AF07FF809D126CF2F6 /* Pods-TestWokrApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWokrApp.release.xcconfig"; path = "Target Support Files/Pods-TestWokrApp/Pods-TestWokrApp.release.xcconfig"; sourceTree = "<group>"; };
 		8839D3FFCDDA9E9A4DE56958 /* Pods_TestWokrApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWokrApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9311BB5125F84BA0DA3754F4 /* Pods-TestWokrApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWokrApp.debug.xcconfig"; path = "Target Support Files/Pods-TestWokrApp/Pods-TestWokrApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44A495DD2A3B1063003CB0D5 /* ResponseDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				44A495DE2A3B1072003CB0D5 /* ResponseDataModel.swift */,
+			);
+			path = ResponseDataModel;
+			sourceTree = "<group>";
+		};
+		44A495E02A3B12FF003CB0D5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		63E94DBB60F8F6F3F656738F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +106,7 @@
 		DD3ECFB82A375C7900A0FA7D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				44A495DD2A3B1063003CB0D5 /* ResponseDataModel */,
 				DD3ECFB92A375C8900A0FA7D /* BeerModel.swift */,
 				DD3ECFBB2A375CBC00A0FA7D /* URLManager.swift */,
 				DD3ECFBD2A375CD500A0FA7D /* NetworkManager.swift */,
@@ -126,6 +144,7 @@
 		DD6C70722A2C9FA5005BEB6C /* TestWokrApp */ = {
 			isa = PBXGroup;
 			children = (
+				44A495E02A3B12FF003CB0D5 /* New Group */,
 				DD3ECFDB2A39B5BB00A0FA7D /* BeerDescriptionView */,
 				DD3ECFC42A38882800A0FA7D /* ProfileView */,
 				DDC0D2882A31EDE000D3442F /* BeerCatalog */,
@@ -337,6 +356,7 @@
 				DD3ECFDD2A39B5F700A0FA7D /* BeerDescriptionViewController.swift in Sources */,
 				DDD5F82D2A2F67C9006A845E /* RegistrationViewController.swift in Sources */,
 				DDEFF49A2A3A1FB800C3B419 /* test.swift in Sources */,
+				44A495DF2A3B1072003CB0D5 /* ResponseDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
